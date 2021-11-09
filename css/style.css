@@ -1,0 +1,68 @@
+#home {
+  /*
+  background: #26d97d;
+  color: white;
+  
+  position: absolute;
+  width: 800px;
+  height: 400px;
+*/
+  height: 420px;
+  background: #c4c4c4;
+}
+
+body{
+  background: rgb(165, 164, 164);
+}
+
+#foto-principal {
+  width: 700px;
+  height: 350px;
+
+  position: relative;
+}
+
+#foto-principal img {
+  position: absolute;
+  align-self: auto;
+  top: 10%;
+  left: 30%;
+  margin-right: -50%;
+}
+
+.caixa {
+  padding: 60px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+footer p a {
+  margin: 5px 15px;
+}
+
+/*
+h6{
+  color: #fff;
+}
+*/
+
+#trade-mark{
+  margin: 20px auto;
+
+ 
+}
+
+/* um jeito que poderia usar para o hover... mas ele muda também o botão "Entrar"... aí não fica legal. 
+header nav ul li a:hover{
+    color: white !important;
+}
+*/
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+/* caso queira mudar a cor do hover, usamos o css abaixo: 
+.navbar-light .navbar-nav .nav-link:hover{
+    color: green;
+}
+*/
